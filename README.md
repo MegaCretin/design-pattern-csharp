@@ -25,4 +25,13 @@ Le pattern Abstract Factory permet, à partir d'une interface, de créer une fam
 
 L'objet catalogue va prendre obligatoirement une instance FabriqueVéhicule, Scooter, Automobile
 Scooter, Automobile sont des classe Abstraite, elles en peuvent pas être appeler.
-Et FabriqueVéhicule est une interface car il y a implémentation de méthode.
+Et FabriqueVéhicule est une interface.
+
+```c#
+public abstract class Scooter
+{
+  protected string modele;
+  protected string couleur;
+  protected int puissance;
+[...]
+```
