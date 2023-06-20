@@ -35,3 +35,13 @@ public abstract class Scooter
   protected int puissance;
 [...]
 ```
+
+### Le pattern Builder 
+Ce pattern permet d'abstraire la construction d'objet complexes de leur implementation de sorte qu'un client puisse créer des objets complexes sans avoir a se preocuper des differences d'implementation.
+
+![image](https://github.com/MegaCretin/design-pattern-csharp/assets/74878108/462c1621-c145-436a-9364-8f5f9b64f62c)
+
+Pourquoi utiliser ce pattern: 
+- le client a besoin de construire des objets sans connaitre leur implementation
+- un client a besoin de construire des objets complexes ayant plusieurs representations ou implementations
+
