@@ -45,3 +45,27 @@ Pourquoi utiliser ce pattern:
 - le client a besoin de construire des objets sans connaitre leur implementation
 - un client a besoin de construire des objets complexes ayant plusieurs representations ou implementations
 
+### Le pattern Factory Method
+
+Le but de ce pattern est d'introduire une méthode abstraite de création d'objet en reportant la aux sous-classes concretes la création effective. 
+
+![image](https://github.com/MegaCretin/design-pattern-csharp/assets/74878108/5efe4adc-1b73-4e91-a0a5-b4f22d4d68a0)
+
+![image](https://github.com/MegaCretin/design-pattern-csharp/assets/74878108/515309d5-5cdb-4b10-9513-30004e8aa0a5)
+![image](https://github.com/MegaCretin/design-pattern-csharp/assets/74878108/3ae7082c-7249-47f2-95ae-8abee5248ea6)
+
+### Le pattern Singleton
+
+Il faut s'assurer de deux choses lorsqu'on veut mettre en place ce pattern:
+- Une classe ne doit posseder qu'une seule instance
+- Il faut fournir une méthode de classe qui permet de fournir cette instance unique
+
+### Le pattern Prototype
+
+Le but de ce pattern est de créer de nouveaux objets en dupliquant des objets existants appeles "prototypes".
+Ce derniers disposent d'une capacité de clonage
+
+![image](https://github.com/MegaCretin/design-pattern-csharp/assets/74878108/7b7b1c12-28b5-4955-bffb-315d256f3e07)
+
+
+
