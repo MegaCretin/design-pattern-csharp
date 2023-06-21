@@ -67,5 +67,22 @@ Ce derniers disposent d'une capacité de clonage
 
 ![image](https://github.com/MegaCretin/design-pattern-csharp/assets/74878108/7b7b1c12-28b5-4955-bffb-315d256f3e07)
 
+## Introduction des patterns de structuration
 
+L’objectif des patterns de structuration est de faciliter l’indépendance de l’interface d’un objet ou d’un
+ensemble d’objets vis-à-vis de son implantation. Dans le cas d’un ensemble d’objets, il s’agit aussi de
+rendre cette interface indépendante de la hiérarchie des classes et de la composition des objets.
+En fournissant les interfaces, les patterns de structuration encapsulent la composition des objets,
+augmentant le niveau d’abstraction du système à l’image des patterns de création qui encapsulent la
+création des objets. Les patterns de structuration mettent en avant les interfaces.
+L’encapsulation de la composition est réalisée non pas en structurant l’objet lui-même mais en transférant
+cette structuration à un second objet. Celui-ci est intimement lié au premier objet. Ce transfert de
+structuration signifie que le premier objet détient l’interface vis-à-vis des clients et gère la relation avec le
+second objet qui lui gère la composition et n’a aucune interface avec les clients externes.
+
+### Le pattern Adapter
+
+Le but ici est d'adapter l'interface d'une classe donnee afin qu'elle puissent interagir avec un client
+
+![image](https://github.com/MegaCretin/design-pattern-csharp/assets/74878108/d4934791-abf9-4abe-9ec6-cf143094bef2)
 
