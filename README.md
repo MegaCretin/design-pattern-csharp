@@ -96,3 +96,11 @@ Ce pattern constitue une alternative a l'heritage.
 
 ![image](https://github.com/MegaCretin/design-pattern-csharp/assets/74878108/bd95fac3-216b-4e12-baae-532118179abb)
 
+Le pattern Decorator peut être utilisé dasn les domains suivants:
+- notre application souhaite ajouter dynamiquement des fonctionnalités à un objet sans modifier son interface, autrement dit sans avoir à modifier les clients de cet objet
+- une application doit gérer des fonctionnalites qui peuvent être retirées dynamiquement
+- l'utilisation de l'héritage n'est pas une option car la hhierarchie d'objets est déjà trop complexe.
+
+### Le pattern Bridge
+
+
