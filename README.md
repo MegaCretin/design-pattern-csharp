@@ -86,3 +86,13 @@ Le but ici est d'adapter l'interface d'une classe donnee afin qu'elle puissent i
 
 ![image](https://github.com/MegaCretin/design-pattern-csharp/assets/74878108/d4934791-abf9-4abe-9ec6-cf143094bef2)
 
+### Le pattern Decorator
+
+Le pattern Decorator est un pattern de structuration qui permet d'ajouter dynamiquement des fonctionnalités à un objet.
+
+Ici, on cherche a ajouter des fonctionnalités suplémentaire a un objet en prenant soin de ne pas modifier son interface. Toutes modifications apportées par ce pattern sereont transparente vis a vis des clients.
+
+Ce pattern constitue une alternative a l'heritage.
+
+![image](https://github.com/MegaCretin/design-pattern-csharp/assets/74878108/bd95fac3-216b-4e12-baae-532118179abb)
+
