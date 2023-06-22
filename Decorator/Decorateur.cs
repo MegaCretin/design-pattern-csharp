@@ -1,5 +1,4 @@
-public abstract class Decorateur :
-  ComposantGraphiqueVehicule
+public abstract class Decorateur : ComposantGraphiqueVehicule
 {
   protected ComposantGraphiqueVehicule composant;
 
