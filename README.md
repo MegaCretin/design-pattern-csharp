@@ -131,6 +131,25 @@ https://refactoring.guru/fr/design-patterns/composite
 
 ![image](https://github.com/MegaCretin/design-pattern-csharp/assets/74878108/621932d8-7e3b-4c63-9d3d-55420bce62e8)
 
+Au sein de notre système de vente de véhicules, nous voulons représenter les sociétés clientes,
+notamment pour connaître le nombre de véhicules dont elles disposent et leur proposer des offres de
+maintenance de leur parc.
+Les sociétés qui possèdent des filiales demandent des offres de maintenance qui prennent en compte le
+parc de véhicules de leurs filiales.
+Une solution immédiate consiste à traiter différemment les sociétés sans filiale et celles possédant des
+filiales. Cependant cette différence de traitement entre les deux types de société rend l’application plus
+complexe et dépendante de la composition interne des sociétés clientes.
+Le pattern résout ce problème en unifiant l’interface des deux types de sociétés et en
+utilisant la composition récursive. Cette composition récursive est nécessaire car une société peut
+posséder des filiales qui possèdent elles-mêmes d’autres filiales.
+
+## Les patterns de comportement
+
+TODO: Ajouter la définition des patterns de comportements
+
+![image](https://github.com/MegaCretin/design-pattern-csharp/assets/74878108/1349a3ac-3903-4007-bdd1-3fe5cc9785d0)
+![image](https://github.com/MegaCretin/design-pattern-csharp/assets/74878108/43bdcaea-b484-4abc-9f8d-1ed2f73ac25f)
+![image](https://github.com/MegaCretin/design-pattern-csharp/assets/74878108/c398831d-3c15-406d-8057-a52dbadadd4b)
 
 
 
