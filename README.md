@@ -103,4 +103,5 @@ Le pattern Decorator peut être utilisé dasn les domains suivants:
 
 ### Le pattern Bridge
 
+![image](https://github.com/MegaCretin/design-pattern-csharp/assets/74878108/063891f9-917c-49e8-a68a-1fd79914f648)
 
